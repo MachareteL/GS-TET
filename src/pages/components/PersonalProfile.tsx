@@ -10,7 +10,7 @@ export default function PersonalProfile({
   children,
 }: PersonalProfileProps) {
   return (
-    <div className="px-12">
+    <div className="px-4 sm:px-12">
       <ProfileHeader
         introduction={introduction}
         description={description}
@@ -27,7 +27,7 @@ export default function PersonalProfile({
             </ul>
           </div>
         </div>
-        <div className="col-span-8 flex flex-wrap justify-center">
+        <div className="col-span-8 flex-wrap justify-center grid sm:grid-cols-2 ">
           {children}
         </div>
       </div>

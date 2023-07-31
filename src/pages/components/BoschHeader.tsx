@@ -1,9 +1,10 @@
+import Link from "next/link";
 import React from "react";
 export default function BoschHeader() {
   return (
     <div className="flex flex-col items-end">
       <div className="w-screen h-3 bg-gradient-to-r from-[#004290] to-[#4D3E8F]"/>
-      <div className="px-4">
+      <Link href={"/"} className="px-4">
         <svg
           width="176"
           height="70"
@@ -57,7 +58,7 @@ export default function BoschHeader() {
             </clipPath>
           </defs>
         </svg>
-      </div>
+      </Link>
     </div>
   );
 }
