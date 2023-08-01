@@ -71,8 +71,26 @@ const Macharete: NextPage<Props> = ({}) => {
     },
   ];
 
-  const list = ["Hackaton", "TCC"];
-  const list2 = ["Jogar Xadrez", "Dormir", "Codar no tempo livre"];
+  const projects = [
+    "[Hackaton] Locker Inteligente",
+    "[TCC] Plataforma Organizacional com IA",
+    "[MED-CA] Formulário retorno de afastamento",
+    "[GS-OIS] Center of Expertise",
+  ];
+  const hobbies = [
+    "Teologia",
+    "Carro Antigo",
+    "Música",
+    "Xadrez",
+    "Animes, séries & filmes",
+  ];
+  const career = [
+    "[ETEC] Técnico em Admnistração",
+    "[SENAI] Técnico em Desenvolvimento de Sistemas",
+    "[Instrutor Estágiario] Inglês avançado",
+    "[FATEC] Gestão da tecnologia da informação",
+  ];
+  const about = ["curiosidades e fatos aqui..."];
   return (
     <PersonalProfile
       image="https://github.com/MachareteL.png"
@@ -80,12 +98,10 @@ const Macharete: NextPage<Props> = ({}) => {
       description="Sou o macharete, tenho 19 anos e gosto de desenvolvimento web em geral."
       labels={labels}
     >
-      <Card title="Projetos" list={list} />
-      <Card title="Hobbies" list={list2} />
-      <Card title="Projetos" list={list} />
-      <Card title="Hobbies" list={list2} />
-      <Card title="Projetos" list={list} />
-      <Card title="Hobbies" list={list2} />
+      <Card title="Projetos" list={projects} />
+      <Card title="Carreira" list={career} />
+      <Card title="Hobbies" list={hobbies} />
+      <Card title="Sobre mim" list={about} />
     </PersonalProfile>
   );
 };
