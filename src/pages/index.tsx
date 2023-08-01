@@ -63,7 +63,7 @@ export default function Home() {
           </h1>
           <ul className="space-y-4">
             {teamDAA.map((person) => (
-              <li className="shadow-md p-2 rounded-md border-gray-500 border border-opacity-20 text-xl hover:shadow-xl">
+              <li className="shadow-md p-2 rounded-md border-gray-500 border border-opacity-20 text-xl hover:shadow-xl" key={person.name}>
                 <Link
                   href={person.profilehref}
                   className="w-full flex items-center space-x-4"
@@ -87,7 +87,7 @@ export default function Home() {
           </h1>
           <ul className="space-y-4">
             {teamDEV.map((person) => (
-              <li className="shadow-md p-2 rounded-md border-gray-500 border border-opacity-20 text-xl hover:shadow-xl">
+              <li className="shadow-md p-2 rounded-md border-gray-500 border border-opacity-20 text-xl hover:shadow-xl" key={person.name}>
                 <Link
                   href={person.profilehref}
                   className="w-full flex items-center space-x-4"

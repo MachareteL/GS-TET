@@ -22,7 +22,7 @@ export default function PersonalProfile({
           <div className="block">
             <ul>
               {labels.map(({ title, icons }) => (
-                <Label title={title} icons={icons} />
+                <Label title={title} icons={icons} key={title}/>
               ))}
             </ul>
           </div>
