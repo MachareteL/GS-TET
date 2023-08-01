@@ -1,6 +1,6 @@
 import { NextPage } from 'next'
-import PersonalProfile from '../../components/PersonalProfile';
-import Card from '../../components/Card';
+import PersonalProfile from '@/components/PersonalProfile';
+import Card from '@/components/Card';
 
 interface Props {}
 
@@ -50,7 +50,7 @@ const Emilly: NextPage<Props> = ({}) => {
         },
         {
           icon: "https://imgtr.ee/images/2023/07/31/7ceb4c8b45f894c79165ec3cd97b87b5.png",
-          href: "https://www.djangoproject.com//",
+          href: "https://www.djangoproject.com/",
         },
         {
           icon: "https://cdn-icons-png.flaticon.com/512/1260/1260667.png",

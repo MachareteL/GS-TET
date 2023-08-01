@@ -12,7 +12,7 @@ export default function Home() {
     },
     {
       name: "Gabriel Tejero",
-      profilesrc: "https://via.placeholder.com/150",
+      profilesrc: "https://avatars.githubusercontent.com/u/112812234?s=400&u=d61af8e596d72d1bbea171fc7bad5a52f1c34644&v=4.png",
       profilehref: "/DAA/tejero",
     },
     {
@@ -22,7 +22,7 @@ export default function Home() {
     },
     {
       name: "José Alex",
-      profilesrc: "https://via.placeholder.com/150",
+      profilesrc: "https://github.com/Alexjunior2005.png",
       profilehref: "/DAA/alex",
     },
   ];
