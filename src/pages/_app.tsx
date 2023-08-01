@@ -1,6 +1,6 @@
 import "@/styles/globals.css";
 import type { AppProps } from "next/app";
-import BoschHeader from "./components/BoschHeader";
+import BoschHeader from "../components/BoschHeader";
 import { AnimatePresence } from "framer-motion";
 import React from "react";
 import { usePathname } from "next/navigation";

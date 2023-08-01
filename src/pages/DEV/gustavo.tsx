@@ -1,6 +1,6 @@
 import { NextPage } from "next";
-import PersonalProfile from "../components/PersonalProfile";
-import Card from "../components/Card";
+import PersonalProfile from "../../components/PersonalProfile";
+import Card from "../../components/Card";
 import artstationIcon from "../../../public/artstation-1.svg";
 
 interface Props {}

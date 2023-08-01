@@ -1,6 +1,6 @@
 import { NextPage } from 'next'
-import PersonalProfile from '../components/PersonalProfile';
-import Card from '../components/Card';
+import PersonalProfile from '../../components/PersonalProfile';
+import Card from '../../components/Card';
 
 interface Props {}
 
