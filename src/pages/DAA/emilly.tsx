@@ -11,11 +11,11 @@ const Emilly: NextPage<Props> = ({}) => {
       title: "Contato",
       icons: [
         {
-          icon: "https://www.flaticon.com/br/icone-gratis/linkedin_145807?term=linkedin&page=1&position=2&origin=tag&related_id=145807",
+          icon: "https://cdn-icons-png.flaticon.com/512/145/145807.png",
           href: "https://www.linkedin.com/in/emillysug/",
         },
         {
-          icon: "https://www.flaticon.com/br/icone-gratis/github_733609?term=github&page=1&position=3&origin=search&related_id=733609",
+          icon: "https://cdn-icons-png.flaticon.com/512/733/733609.png",
           href: "https://github.com/Emillyzinha",
         },
         {
@@ -38,7 +38,7 @@ const Emilly: NextPage<Props> = ({}) => {
       ],
     },
     {
-      title: "Tenologias",
+      title: "Tecnologias",
       icons: [
         {
           icon: "https://img2.gratispng.com/20180817/ysc/kisspng-logo-scikit-learn-python-github-portable-network-g-go-to-image-page-5b77997b36f4f5.3677823415345647312251.jpg",
@@ -50,18 +50,14 @@ const Emilly: NextPage<Props> = ({}) => {
         },
         {
           icon: "https://imgtr.ee/images/2023/07/31/7ceb4c8b45f894c79165ec3cd97b87b5.png",
-          href: "https://www.djangoproject.com/",
+          href: "https://www.djangoproject.com//",
         },
         {
           icon: "https://cdn-icons-png.flaticon.com/512/1260/1260667.png",
           href: "https://react.dev/",
         },
         {
-          icon: "https://cdn-icons-png.flaticon.com/512/1260/1260667.png",
-          href: "https://react.dev/",
-        },
-        {
-          icon: "https://www.flaticon.com/br/icone-gratis/armazenamento-de-banco-de-dados_5732837?term=banco+de+dados&page=1&position=3&origin=search&related_id=5732837",
+          icon: "https://cdn-icons-png.flaticon.com/512/5732/5732837.png",
           href: "https://www.mysql.com/",
         },
       ],
@@ -71,7 +67,7 @@ const Emilly: NextPage<Props> = ({}) => {
   const projetos = ["Apprentice Management", "CorporateWiki", "Bancada Móvel para Eventos Híbridos"];
   const curiosities = ["Já tentei escrever um livro", "Psicóloga infantil"];
   const formation = ["E.E. Carlos Gomes", "Curso Administrativo - Patrulheiros",  "SENAI", "Ciência da Computação - Unimetrocamp"];
-  const hobbies = ["Ler", "Assistir sitcom", "Cozinhar"];
+  const hobbies = ["Ler", "Assistir sitcom e dorama", "Cozinhar"];
 
   return (
     <PersonalProfile

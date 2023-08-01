@@ -19,7 +19,7 @@ const Gustavo: NextPage<Props> = ({}) => {
           href: "https://www.linkedin.com/in/gustavo-miguel-roncada-meira-087b29223/",
         },
         {
-          icon: "",
+          icon: "https://th.bing.com/th/id/OIP.TuGeiUM_8xpOTsSH1HvxwAHaDb?pid=ImgDet&w=1000&h=464&rs=1",
           href: "",
         },
         {
