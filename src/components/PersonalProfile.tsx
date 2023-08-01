@@ -17,8 +17,8 @@ export default function PersonalProfile({
         image={image}
       />
       <div className="w-1/3 h-1 my-6 bg-gradient-to-r from-[#004290] to-[#4D3E8F] rounded-full" />
-      <div className="grid grid-cols-12">
-        <div className="col-span-4">
+      <div className="sm:grid sm:grid-cols-12">
+        <div className="sm:col-span-4">
           <div className="block">
             <ul>
               {labels.map(({ title, icons }) => (
