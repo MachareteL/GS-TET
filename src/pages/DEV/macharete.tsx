@@ -90,7 +90,7 @@ const Macharete: NextPage<Props> = ({}) => {
     "[Instrutor Estágiario] Inglês avançado",
     "[FATEC] Gestão da tecnologia da informação",
   ];
-  const about = ["curiosidades e fatos aqui..."];
+  const about = ["Nasci no 333° dia do ano", "Tenho 8 pássaros", "Já fui tapeceiro, mecânico, marceneiro e professor."];
   return (
     <PersonalProfile
       image="https://github.com/MachareteL.png"
