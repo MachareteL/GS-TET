@@ -35,10 +35,6 @@ const Macharete: NextPage<Props> = ({}) => {
           href: "#",
         },
         {
-          icon: "https://imgtr.ee/images/2023/07/31/7ceb4c8b45f894c79165ec3cd97b87b5.png",
-          href: "",
-        },
-        {
           icon: "https://th.bing.com/th/id/OIP.EDJ9xoErBbZqK2tExVoJfAHaHY?pid=ImgDet&rs=1",
           href: "#",
         },
@@ -61,7 +57,7 @@ const Macharete: NextPage<Props> = ({}) => {
         },
         {
           href: "https://ekballo.vercel.app/",
-          icon: "https://scontent.fgru11-1.fna.fbcdn.net/v/t39.30808-1/306159071_614516866768965_399123862009775387_n.png?stp=dst-png_p120x120&_nc_cat=107&ccb=1-7&_nc_sid=dbb9e7&_nc_ohc=O8dlGe5AHGwAX_QhbCB&_nc_ht=scontent.fgru11-1.fna&oh=00_AfDZh6tAnapFJtkk-oxuqal1di1hBXQibf53ELJPnFuS0A&oe=64CD5366",
+          icon: "https://ekballo.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffavicon.6b31cca2.png&w=96&q=75",
         },
         {
           href: "https://clearhtml.netlify.app/",
