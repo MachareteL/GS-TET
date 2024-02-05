@@ -68,36 +68,36 @@ const Macharete: NextPage<Props> = ({}) => {
   ];
 
   const projects = [
-    "[Hackaton] Locker Inteligente",
-    "[TCC] Plataforma Organizacional com IA",
-    "[MED-CA] Formulário retorno de afastamento",
+    "[Hackaton] Smart Locker",
+    "[Final Project] Organization AI Plataform",
+    "[MED-CA] Medical Status Form",
     "[GS-OIS] Center of Expertise",
   ];
   const hobbies = [
-    "Teologia",
-    "Carro Antigo",
-    "Música",
-    "Xadrez",
-    "Animes, séries & filmes",
+    "Theology",
+    "Old JDM Cars",
+    "Music",
+    "Chess",
+    "Animes, Tv Series & Movies",
   ];
   const career = [
-    "[ETEC] Técnico em Admnistração",
-    "[SENAI] Técnico em Desenvolvimento de Sistemas",
-    "[Instrutor Estágiario] Inglês avançado",
-    "[FATEC] Gestão da tecnologia da informação",
+    "[ETEC] Administration Technician",
+    "[SENAI] Software Development Technician",
+    "[Instrutor Estágiario] English Teacher",
+    "[UNIMETROCAMP] Computer Science",
   ];
-  const about = ["Nasci no 333° dia do ano", "Tenho 8 pássaros", "Já fui tapeceiro, mecânico, marceneiro e professor."];
+  const about = ["I was born at 333° day of the year", "I got 8 birds", "I've already been a mechanic, carpenter and a teacher."];
   return (
     <PersonalProfile
       image="https://github.com/MachareteL.png"
       introduction="Lucas da Silva Macharete."
-      description="Sou o macharete, tenho 19 anos e gosto de desenvolvimento web em geral."
+      description="I'm Macharete, 20 years old and I like web development in general."
       labels={labels}
     >
-      <Card title="Projetos" list={projects} />
-      <Card title="Carreira" list={career} />
+      <Card title="Projects" list={projects} />
+      <Card title="Career" list={career} />
       <Card title="Hobbies" list={hobbies} />
-      <Card title="Sobre mim" list={about} />
+      <Card title="About me" list={about} />
     </PersonalProfile>
   );
 };
